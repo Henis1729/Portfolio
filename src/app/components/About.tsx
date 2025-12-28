@@ -1,13 +1,8 @@
 import {
-  Terminal,
-  Code2,
-  Database,
-  Globe,
   Github,
   Linkedin,
   Mail,
   Phone,
-  MapPin,
 } from "lucide-react";
 
 export function About() {
@@ -36,8 +31,8 @@ export function About() {
           <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
             <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-lg bg-gradient-to-br from-[#3794ff] to-[#c586c0] flex items-center justify-center text-2xl sm:text-4xl text-white shrink-0 overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
-                alt="Nature"
+                src="/Photo.JPG"
+                alt="Henis Nakrani"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -63,7 +58,7 @@ export function About() {
                     name:
                   </span>
                   <span className="text-[#ce9178] ml-2 break-words">
-                    "Henis Nakrani"
+                    "Henis Sureshkumar Nakrani"
                   </span>
                   <span className="text-[#d4d4d4]">,</span>
                 </div>
@@ -73,7 +68,7 @@ export function About() {
                     role:
                   </span>
                   <span className="text-[#ce9178] ml-2 break-words">
-                    "Software Developer & Automation QA"
+                    "Machine Learning & Automation Engineer | Ex-SDE @ Scaleteam | Ex-Automation QA @ OPS | AWS Solutions Architect | M.Eng, McMaster University"
                   </span>
                   <span className="text-[#d4d4d4]">,</span>
                 </div>
@@ -92,11 +87,8 @@ export function About() {
                   <span className="text-[#9cdcfe] ml-2 sm:ml-4">
                     experience:
                   </span>
-                  <span className="text-[#b5cea8] ml-2">3</span>
+                  <span className="text-[#b5cea8] ml-2">3 Years </span>
                   <span className="text-[#d4d4d4]">,</span>
-                  <span className="text-[#6a9955] ml-2">
-                    // years
-                  </span>
                 </div>
               </div>
 
