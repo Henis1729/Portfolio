@@ -32,42 +32,42 @@ export function Projects() {
   ];
 
   return (
-    <div className="min-h-[calc(100vh-8rem)] bg-[#1e1e1e] p-8 font-['Fira_Code']">
+    <div className="min-h-[calc(100vh-8rem)] bg-[#1e1e1e] p-4 sm:p-6 md:p-8 font-['Fira_Code']">
       <div className="max-w-6xl mx-auto">
         {/* JSX Header */}
-        <div className="mb-6">
-          <div className="mb-2">
-            <span className="text-[#6a9955]">1</span>
+        <div className="mb-4 sm:mb-6">
+          <div className="mb-2 text-xs sm:text-sm">
+            <span className="text-[#6a9955] shrink-0">1</span>
             <span className="text-[#6a9955] ml-2">// My Projects Portfolio</span>
           </div>
-          <div className="mb-2">
-            <span className="text-[#6a9955]">2</span>
+          <div className="mb-2 text-xs sm:text-sm flex flex-wrap items-center gap-1">
+            <span className="text-[#6a9955] shrink-0">2</span>
             <span className="text-[#c586c0] ml-2">export</span>
             <span className="text-[#c586c0] ml-2">function</span>
             <span className="text-[#dcdcaa] ml-2">Projects()</span>
             <span className="text-[#d4d4d4] ml-2">{'{'}</span>
           </div>
-          <div className="mb-4">
-            <span className="text-[#6a9955]">3</span>
+          <div className="mb-4 text-xs sm:text-sm">
+            <span className="text-[#6a9955] shrink-0">3</span>
             <span className="text-[#c586c0] ml-4">return</span>
             <span className="text-[#d4d4d4] ml-2">(</span>
           </div>
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 gap-6 mb-6">
+        <div className="grid grid-cols-1 gap-4 sm:gap-6 mb-4 sm:mb-6">
           {projects.map((project, index) => (
-            <div key={index} className="bg-[#252526] border border-[#3e3e42] rounded-lg p-6 hover:border-[#007acc] transition-colors group">
+            <div key={index} className="bg-[#252526] border border-[#3e3e42] rounded-lg p-4 sm:p-6 hover:border-[#007acc] transition-colors group">
               {/* Project Header */}
-              <div className="flex items-start justify-between mb-4">
-                <div className="flex items-center gap-3">
-                  <Folder className="w-6 h-6 text-[#dcb67a]" />
-                  <div>
-                    <h3 className="text-[#4ec9b0] text-lg">{project.title}</h3>
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-0 mb-4">
+                <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
+                  <Folder className="w-5 h-5 sm:w-6 sm:h-6 text-[#dcb67a] shrink-0" />
+                  <div className="min-w-0">
+                    <h3 className="text-[#4ec9b0] text-base sm:text-lg break-words">{project.title}</h3>
                     <span className="text-[#858585] text-xs">{project.period}</span>
                   </div>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 shrink-0">
                   <span className={`px-2 py-0.5 rounded text-xs ${
                     project.status === 'Production' ? 'bg-[#1a7f37] text-white' :
                     project.status === 'Beta' ? 'bg-[#bb8009] text-white' :
@@ -79,14 +79,14 @@ export function Projects() {
               </div>
 
               {/* Description */}
-              <p className="text-[#9cdcfe] text-sm mb-4 leading-relaxed">
+              <p className="text-[#9cdcfe] text-xs sm:text-sm mb-4 leading-relaxed">
                 <span className="text-[#6a9955]">// </span>
                 {project.description}
               </p>
 
               {/* Technologies */}
               <div className="mb-4">
-                <div className="text-[#4ec9b0] text-sm mb-2">Tech Stack:</div>
+                <div className="text-[#4ec9b0] text-xs sm:text-sm mb-2">Tech Stack:</div>
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, i) => (
                     <span
@@ -100,23 +100,23 @@ export function Projects() {
               </div>
 
               {/* Links */}
-              <div className="flex gap-4 pt-4 border-t border-[#3e3e42]">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-4 border-t border-[#3e3e42]">
                 <a
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-[#9cdcfe] hover:text-[#3794ff] transition-colors text-sm"
+                  className="flex items-center gap-2 text-[#9cdcfe] hover:text-[#3794ff] transition-colors text-xs sm:text-sm"
                 >
-                  <Github className="w-4 h-4" />
+                  <Github className="w-4 h-4 shrink-0" />
                   <span>Source Code</span>
                 </a>
                 <a
                   href={project.demo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-[#9cdcfe] hover:text-[#3794ff] transition-colors text-sm"
+                  className="flex items-center gap-2 text-[#9cdcfe] hover:text-[#3794ff] transition-colors text-xs sm:text-sm"
                 >
-                  <ExternalLink className="w-4 h-4" />
+                  <ExternalLink className="w-4 h-4 shrink-0" />
                   <span>Live Demo</span>
                 </a>
               </div>
@@ -125,13 +125,13 @@ export function Projects() {
         </div>
 
         {/* JSX Footer */}
-        <div>
+        <div className="text-xs sm:text-sm">
           <div>
-            <span className="text-[#6a9955]">{4 + projects.length}</span>
+            <span className="text-[#6a9955] shrink-0">{4 + projects.length}</span>
             <span className="text-[#d4d4d4] ml-4">);</span>
           </div>
           <div>
-            <span className="text-[#6a9955]">{5 + projects.length}</span>
+            <span className="text-[#6a9955] shrink-0">{5 + projects.length}</span>
             <span className="text-[#d4d4d4] ml-2">{'}'}</span>
           </div>
         </div>

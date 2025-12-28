@@ -5,9 +5,10 @@ interface SidebarProps {
   isOpen: boolean;
   activeTab: string;
   setActiveTab: (tab: string) => void;
+  isMobile?: boolean;
 }
 
-export function Sidebar({ isOpen, activeTab, setActiveTab }: SidebarProps) {
+export function Sidebar({ isOpen, activeTab, setActiveTab, isMobile = false }: SidebarProps) {
   const [explorerOpen, setExplorerOpen] = useState(true);
 
   const files = [
@@ -21,7 +22,9 @@ export function Sidebar({ isOpen, activeTab, setActiveTab }: SidebarProps) {
   if (!isOpen) return null;
 
   return (
-    <aside className="fixed left-0 top-12 bottom-6 w-64 bg-[#252526] border-r border-[#1e1e1e] z-40">
+    <aside className={`fixed left-0 top-12 bottom-6 w-64 bg-[#252526] border-r border-[#1e1e1e] z-40 transition-transform duration-300 ${
+      isMobile && !isOpen ? '-translate-x-full' : 'translate-x-0'
+    }`}>
       <div className="p-2">
         <button
           onClick={() => setExplorerOpen(!explorerOpen)}
@@ -56,8 +59,8 @@ export function Sidebar({ isOpen, activeTab, setActiveTab }: SidebarProps) {
                     : 'text-[#cccccc] hover:bg-[#2a2d2e]'
                 }`}
               >
-                <file.icon className={`w-4 h-4 ${file.color}`} />
-                <span>{file.name}</span>
+                <file.icon className={`w-4 h-4 shrink-0 ${file.color}`} />
+                <span className="truncate">{file.name}</span>
               </button>
             ))}
           </div>
