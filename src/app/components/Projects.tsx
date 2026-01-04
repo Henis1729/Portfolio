@@ -32,43 +32,43 @@ export function Projects() {
   ];
 
   return (
-    <div className="min-h-[calc(100vh-8rem)] bg-[#1e1e1e] p-4 sm:p-6 md:p-8 font-['Fira_Code']">
+    <div className="min-h-[calc(100vh-8rem)] bg-[#1e1e1e] p-4 sm:p-6 md:p-8 lg:p-10 font-['Fira_Code']">
       <div className="max-w-6xl mx-auto">
         {/* JSX Header */}
-        <div className="mb-4 sm:mb-6">
-          <div className="mb-2 text-xs sm:text-sm">
-            <span className="text-[#6a9955] shrink-0">1</span>
-            <span className="text-[#6a9955] ml-2">// My Projects Portfolio</span>
+        <div className="mb-6 sm:mb-8">
+          <div className="mb-3 text-sm sm:text-base">
+            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">1</span>
+            <span className="text-[#6a9955]">// My Projects Portfolio</span>
           </div>
-          <div className="mb-2 text-xs sm:text-sm flex flex-wrap items-center gap-1">
-            <span className="text-[#6a9955] shrink-0">2</span>
-            <span className="text-[#c586c0] ml-2">export</span>
+          <div className="mb-3 text-sm sm:text-base flex flex-wrap items-center gap-2">
+            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">2</span>
+            <span className="text-[#c586c0]">export</span>
             <span className="text-[#c586c0] ml-2">function</span>
             <span className="text-[#dcdcaa] ml-2">Projects()</span>
             <span className="text-[#d4d4d4] ml-2">{'{'}</span>
           </div>
-          <div className="mb-4 text-xs sm:text-sm">
-            <span className="text-[#6a9955] shrink-0">3</span>
+          <div className="mb-4 text-sm sm:text-base">
+            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">3</span>
             <span className="text-[#c586c0] ml-4">return</span>
             <span className="text-[#d4d4d4] ml-2">(</span>
           </div>
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 gap-4 sm:gap-6 mb-4 sm:mb-6">
+        <div className="grid grid-cols-1 gap-5 sm:gap-6 mb-6 sm:mb-8">
           {projects.map((project, index) => (
-            <div key={index} className="bg-[#252526] border border-[#3e3e42] rounded-lg p-4 sm:p-6 hover:border-[#007acc] transition-colors group">
+            <div key={index} className="bg-[#252526] border border-[#3e3e42] rounded-lg p-5 sm:p-6 hover:border-[#007acc] transition-colors group">
               {/* Project Header */}
               <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-0 mb-4">
-                <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
-                  <Folder className="w-5 h-5 sm:w-6 sm:h-6 text-[#dcb67a] shrink-0" />
+                <div className="flex items-center gap-3 sm:gap-4 min-w-0 flex-1">
+                  <Folder className="w-6 h-6 sm:w-7 sm:h-7 text-[#dcb67a] shrink-0" />
                   <div className="min-w-0">
-                    <h3 className="text-[#4ec9b0] text-base sm:text-lg break-words">{project.title}</h3>
-                    <span className="text-[#858585] text-xs">{project.period}</span>
+                    <h3 className="text-[#4ec9b0] text-lg sm:text-xl md:text-2xl break-words">{project.title}</h3>
+                    <span className="text-[#858585] text-sm sm:text-base">{project.period}</span>
                   </div>
                 </div>
                 <div className="flex items-center gap-2 shrink-0">
-                  <span className={`px-2 py-0.5 rounded text-xs ${
+                  <span className={`px-3 py-1 rounded text-sm sm:text-base ${
                     project.status === 'Production' ? 'bg-[#1a7f37] text-white' :
                     project.status === 'Beta' ? 'bg-[#bb8009] text-white' :
                     'bg-[#0e4429] text-[#7ee787]'
@@ -79,19 +79,19 @@ export function Projects() {
               </div>
 
               {/* Description */}
-              <p className="text-[#9cdcfe] text-xs sm:text-sm mb-4 leading-relaxed">
+              <p className="text-[#9cdcfe] text-sm sm:text-base mb-4 leading-relaxed">
                 <span className="text-[#6a9955]">// </span>
                 {project.description}
               </p>
 
               {/* Technologies */}
               <div className="mb-4">
-                <div className="text-[#4ec9b0] text-xs sm:text-sm mb-2">Tech Stack:</div>
-                <div className="flex flex-wrap gap-2">
+                <div className="text-[#4ec9b0] text-sm sm:text-base mb-3">Tech Stack:</div>
+                <div className="flex flex-wrap gap-2 sm:gap-3">
                   {project.technologies.map((tech, i) => (
                     <span
                       key={i}
-                      className="px-2 py-1 bg-[#1e1e1e] border border-[#3e3e42] rounded text-[#ce9178] text-xs"
+                      className="px-3 py-1.5 bg-[#1e1e1e] border border-[#3e3e42] rounded text-[#ce9178] text-sm sm:text-base"
                     >
                       {tech}
                     </span>
@@ -105,18 +105,18 @@ export function Projects() {
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-[#9cdcfe] hover:text-[#3794ff] transition-colors text-xs sm:text-sm"
+                  className="flex items-center gap-2 text-[#9cdcfe] hover:text-[#3794ff] transition-colors text-sm sm:text-base"
                 >
-                  <Github className="w-4 h-4 shrink-0" />
+                  <Github className="w-5 h-5 sm:w-6 sm:h-6 shrink-0" />
                   <span>Source Code</span>
                 </a>
                 <a
                   href={project.demo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-[#9cdcfe] hover:text-[#3794ff] transition-colors text-xs sm:text-sm"
+                  className="flex items-center gap-2 text-[#9cdcfe] hover:text-[#3794ff] transition-colors text-sm sm:text-base"
                 >
-                  <ExternalLink className="w-4 h-4 shrink-0" />
+                  <ExternalLink className="w-5 h-5 sm:w-6 sm:h-6 shrink-0" />
                   <span>Live Demo</span>
                 </a>
               </div>
@@ -125,13 +125,13 @@ export function Projects() {
         </div>
 
         {/* JSX Footer */}
-        <div className="text-xs sm:text-sm">
+        <div className="text-sm sm:text-base">
           <div>
-            <span className="text-[#6a9955] shrink-0">{4 + projects.length}</span>
+            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">{4 + projects.length}</span>
             <span className="text-[#d4d4d4] ml-4">);</span>
           </div>
           <div>
-            <span className="text-[#6a9955] shrink-0">{5 + projects.length}</span>
+            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">{5 + projects.length}</span>
             <span className="text-[#d4d4d4] ml-2">{'}'}</span>
           </div>
         </div>

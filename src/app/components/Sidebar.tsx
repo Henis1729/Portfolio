@@ -22,44 +22,44 @@ export function Sidebar({ isOpen, activeTab, setActiveTab, isMobile = false }: S
   if (!isOpen) return null;
 
   return (
-    <aside className={`fixed left-0 top-12 bottom-6 w-64 bg-[#252526] border-r border-[#1e1e1e] z-40 transition-transform duration-300 ${
+    <aside className={`fixed left-0 top-12 sm:top-14 bottom-7 sm:bottom-8 w-64 sm:w-72 bg-[#252526] border-r border-[#1e1e1e] z-40 transition-transform duration-300 ${
       isMobile && !isOpen ? '-translate-x-full' : 'translate-x-0'
     }`}>
-      <div className="p-2">
+      <div className="p-3 sm:p-4">
         <button
           onClick={() => setExplorerOpen(!explorerOpen)}
-          className="flex items-center gap-2 w-full px-2 py-1 hover:bg-[#2a2d2e] rounded text-[#cccccc] text-sm uppercase tracking-wide"
+          className="flex items-center gap-2 w-full px-3 py-2 hover:bg-[#2a2d2e] rounded text-[#cccccc] text-sm sm:text-base uppercase tracking-wide"
         >
           {explorerOpen ? (
-            <ChevronDown className="w-4 h-4" />
+            <ChevronDown className="w-5 h-5 sm:w-6 sm:h-6" />
           ) : (
-            <ChevronRight className="w-4 h-4" />
+            <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
           )}
           <span>Explorer</span>
         </button>
       </div>
 
       {explorerOpen && (
-        <div className="px-2">
-          <div className="mb-2">
-            <div className="flex items-center gap-2 px-2 py-1 text-[#cccccc] text-sm">
-              <Folder className="w-4 h-4 text-[#dcb67a]" />
+        <div className="px-3 sm:px-4">
+          <div className="mb-3">
+            <div className="flex items-center gap-2 px-3 py-2 text-[#cccccc] text-sm sm:text-base">
+              <Folder className="w-5 h-5 sm:w-6 sm:h-6 text-[#dcb67a]" />
               <span>PORTFOLIO</span>
             </div>
           </div>
 
-          <div className="space-y-0.5 ml-4">
+          <div className="space-y-1 ml-4 sm:ml-6">
             {files.map((file) => (
               <button
                 key={file.name}
                 onClick={() => setActiveTab(file.name)}
-                className={`flex items-center gap-2 w-full px-2 py-1 rounded text-sm transition-colors ${
+                className={`flex items-center gap-2 sm:gap-3 w-full px-3 py-2 sm:py-2.5 rounded text-sm sm:text-base transition-colors ${
                   activeTab === file.name
                     ? 'bg-[#37373d] text-white'
                     : 'text-[#cccccc] hover:bg-[#2a2d2e]'
                 }`}
               >
-                <file.icon className={`w-4 h-4 shrink-0 ${file.color}`} />
+                <file.icon className={`w-5 h-5 sm:w-6 sm:h-6 shrink-0 ${file.color}`} />
                 <span className="truncate">{file.name}</span>
               </button>
             ))}
