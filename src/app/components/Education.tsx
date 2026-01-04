@@ -26,11 +26,9 @@ export function Education() {
         {/* JSON Header */}
         <div className="mb-6 sm:mb-8">
           <div className="flex items-center gap-3 mb-3 text-sm sm:text-base">
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">1</span>
             <span className="text-[#d4d4d4]">{'{'}</span>
           </div>
           <div className="flex items-center gap-3 mb-4 text-sm sm:text-base">
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">2</span>
             <span className="text-[#9cdcfe] ml-4">"education":</span>
             <span className="text-[#d4d4d4] ml-2">[</span>
           </div>
@@ -42,7 +40,6 @@ export function Education() {
             <div key={index} className="bg-[#252526] border border-[#3e3e42] rounded-lg p-5 sm:p-6">
               <div className="space-y-3 text-sm sm:text-base">
                 <div className="flex items-start gap-3">
-                  <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">{3 + index}</span>
                   <span className="text-[#d4d4d4] ml-2 sm:ml-4">{'{'}</span>
                 </div>
 
@@ -92,7 +89,6 @@ export function Education() {
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">{5 + index}</span>
                   <span className="text-[#d4d4d4] ml-2 sm:ml-4">{'}'}</span>
                   {index < education.length - 1 && <span className="text-[#d4d4d4]">,</span>}
                 </div>
@@ -104,11 +100,9 @@ export function Education() {
         {/* JSON Footer */}
         <div className="mt-6 sm:mt-8 text-sm sm:text-base">
           <div className="flex items-center gap-3 mb-3">
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">{3 + education.length}</span>
             <span className="text-[#d4d4d4] ml-4">]</span>
           </div>
           <div className="flex items-center gap-3">
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">{4 + education.length}</span>
             <span className="text-[#d4d4d4]">{'}'}</span>
           </div>
         </div>

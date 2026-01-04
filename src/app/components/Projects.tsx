@@ -48,7 +48,6 @@ export function Projects() {
             <span className="text-[#d4d4d4] ml-2">{'{'}</span>
           </div>
           <div className="mb-4 text-sm sm:text-base">
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">3</span>
             <span className="text-[#c586c0] ml-4">return</span>
             <span className="text-[#d4d4d4] ml-2">(</span>
           </div>
@@ -127,11 +126,9 @@ export function Projects() {
         {/* JSX Footer */}
         <div className="text-sm sm:text-base">
           <div>
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">{4 + projects.length}</span>
             <span className="text-[#d4d4d4] ml-4">);</span>
           </div>
           <div>
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">{5 + projects.length}</span>
             <span className="text-[#d4d4d4] ml-2">{'}'}</span>
           </div>
         </div>

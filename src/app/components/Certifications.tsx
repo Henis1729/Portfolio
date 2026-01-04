@@ -50,7 +50,6 @@ export function Certifications() {
             <span className="text-[#d4d4d4] ml-2">{'{'}</span>
           </div>
           <div className="mb-4">
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">2</span>
             <span className="text-[#9cdcfe] ml-2 sm:ml-4">"certifications":</span>
             <span className="text-[#d4d4d4] ml-2">[</span>
           </div>
@@ -63,7 +62,7 @@ export function Certifications() {
               <div className="space-y-3 text-sm sm:text-base">
                 {/* Opening Brace */}
                 <div className="flex items-center gap-3 mb-4">
-                  <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">{3 + index}</span>
+                  <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">{2 + index}</span>
                   <span className="text-[#d4d4d4] ml-2 sm:ml-4">{'{'}</span>
                 </div>
 
@@ -126,7 +125,6 @@ export function Certifications() {
 
                 {/* Closing Brace */}
                 <div className="flex items-center gap-3 pt-3">
-                  <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">{7 + index}</span>
                   <span className="text-[#d4d4d4] ml-2 sm:ml-4">{'}'}</span>
                   {index < certifications.length - 1 && <span className="text-[#d4d4d4]">,</span>}
                 </div>
@@ -146,11 +144,9 @@ export function Certifications() {
         {/* JSON Footer */}
         <div className="mt-6 sm:mt-8 text-sm sm:text-base">
           <div className="mb-3">
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">{3 + certifications.length}</span>
             <span className="text-[#d4d4d4] ml-2 sm:ml-4">]</span>
           </div>
           <div>
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">{4 + certifications.length}</span>
             <span className="text-[#d4d4d4]">{'}'}</span>
           </div>
         </div>

@@ -64,14 +64,12 @@ export function Experience() {
             </div>
           </div>
           <div className="mb-4">
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">2</span>
             <span className="text-[#d4d4d4] ml-2">{'}'}</span>
           </div>
           <div className="mb-4">
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">3</span>
           </div>
           <div className="flex flex-wrap items-center gap-2">
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">4</span>
+            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">2</span>
             <span className="text-[#dcdcaa] ml-2">const</span>
             <span className="text-[#4fc1ff] ml-2">workExperience:</span>
             <span className="text-[#4ec9b0] ml-2">Experience[]</span>
@@ -86,7 +84,6 @@ export function Experience() {
             <div key={index} className="bg-[#252526] border border-[#3e3e42] rounded-lg p-5 sm:p-6">
               <div className="space-y-3 text-sm sm:text-base">
                 <div className="flex items-center gap-3 mb-4">
-                  <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">{5 + index}</span>
                   <span className="text-[#d4d4d4] ml-2 sm:ml-4">{'{'}</span>
                 </div>
 
@@ -149,7 +146,6 @@ export function Experience() {
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">{7 + index}</span>
                   <span className="text-[#d4d4d4] ml-2 sm:ml-4">{'}'}</span>
                   {index < experiences.length - 1 && <span className="text-[#d4d4d4]">,</span>}
                 </div>
@@ -160,7 +156,6 @@ export function Experience() {
 
         {/* Closing */}
         <div className="mt-6 sm:mt-8 text-sm sm:text-base">
-          <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg">{7 + experiences.length}</span>
           <span className="text-[#d4d4d4] ml-2">];</span>
         </div>
       </div>

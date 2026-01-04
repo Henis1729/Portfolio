@@ -89,7 +89,6 @@ export function About() {
               </div>
 
               <div className="mb-4 text-sm sm:text-base">
-                <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">4</span>
                 <span className="text-[#d4d4d4]">
                   {"}"}
                 </span>
@@ -101,46 +100,184 @@ export function About() {
         {/* About Section */}
         <div className="bg-[#252526] border border-[#3e3e42] rounded-lg p-5 sm:p-6 md:p-8 mb-6 sm:mb-8">
           <div className="mb-4 text-sm sm:text-base">
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">5</span>
+            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">4</span>
             <span className="text-[#6a9955]">/**</span>
           </div>
           <div className="mb-2 text-sm sm:text-base">
             <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
               {" "}
-              * 3 years of Experience as Software developer and
-              automation Quality
+              * Hello! Thanks for taking an interest to know about me!
             </span>
           </div>
           <div className="mb-2 text-sm sm:text-base">
             <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
               {" "}
-              * Analyst with strong skills in object-oriented
-              programming, REST API
+              * 
             </span>
           </div>
           <div className="mb-2 text-sm sm:text-base">
             <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
               {" "}
-              * Integration with JavaScript in Node JS, SQL in
-              real world projects.
+              * A small side project predicting my own health data with ML is what changed my career.
             </span>
           </div>
           <div className="mb-2 text-sm sm:text-base">
             <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
               {" "}
-              * Certified AWS Cloud Solution Architect with
-              hands-on experience.
+              * It convinced me to move from SDE into machine learning and automation systems
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * and to pursue an M.Eng in Automation & Smart Systems so I can use ML and deep
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * learning to solve business problems.
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * 
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * I like turning messy, real‑world problems into robust ML models and automation
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * workflows by using Python and deep learning frameworks that run reliably in
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * cloud-based systems.
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * 
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * Recently, I have:
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * • Automated government workflows at Ontario's Ministry of Education using UFT,
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              *   VBScript, and ALM/Azure DevOps.
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * • Built serverless backends with AWS Lambda, API Gateway, and GraphQL at Scaleteam
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              *   Technology Pvt. Ltd.
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * • Developed predictive models for healthcare use cases using Python, scikit‑learn,
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              *   and deep learning frameworks.
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * 
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * I bring a rare mix of QA mindset, software engineering experience, and machine
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * learning skills, which helps me design systems that are not only accurate but also
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * observable, testable, and scalable in real environments.
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * I am an AWS Certified Solutions Architect and recently completed an M.Eng in
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * Automation & Smart Systems at McMaster University (GPA 3.9/4).
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * 
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * Currently Seeking: Machine Learning Engineer, Automation Engineer, or Data
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * Analyst roles where I can apply ML and automation expertise to solve actual problems.
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * 
+            </span>
+          </div>
+          <div className="mb-2 text-sm sm:text-base">
+            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
+              {" "}
+              * Passionate about continuous learning and contributing to innovative tech communities!
             </span>
           </div>
           <div className="mb-4 text-sm sm:text-base">
-            <span className="text-[#6a9955] ml-8 sm:ml-10 break-words">
-              {" "}
-              * Knowledge of AI/ML algorithms integration with
-              WebApp development.
-            </span>
-          </div>
-          <div className="mb-4 text-sm sm:text-base">
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">6</span>
             <span className="text-[#6a9955]"> */</span>
           </div>
         </div>
@@ -148,7 +285,7 @@ export function About() {
         {/* Skills Section */}
         <div className="bg-[#252526] border border-[#3e3e42] rounded-lg p-5 sm:p-6 md:p-8 mb-6 sm:mb-8">
           <div className="mb-4 text-sm sm:text-base">
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">7</span>
+            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">5</span>
             <span className="text-[#dcdcaa]">const</span>
             <span className="text-[#4fc1ff] ml-2">skills</span>
             <span className="text-[#d4d4d4] ml-2">=</span>
@@ -159,21 +296,57 @@ export function About() {
             <div>
               <div className="mb-3">
                 <span className="text-[#9cdcfe] text-sm sm:text-base">
-                  languages:
+                  mlAI:
                 </span>
                 <span className="text-[#d4d4d4] ml-2">[</span>
               </div>
               <div className="ml-6 sm:ml-12 flex flex-wrap gap-2 sm:gap-3 mb-3">
-                {["Python", "Java", "SQL", "JavaScript"].map(
-                  (skill, i) => (
-                    <span
-                      key={i}
-                      className="px-3 sm:px-4 py-1.5 sm:py-2 bg-[#1e1e1e] border border-[#3e3e42] rounded text-[#ce9178] text-sm sm:text-base"
-                    >
-                      "{skill}"
-                    </span>
-                  ),
-                )}
+                {[
+                  "TensorFlow",
+                  "PyTorch",
+                  "Keras",
+                  "scikit-learn",
+                  "Classification Models",
+                  "Neural Networks",
+                  "Feature Engineering",
+                  "SMOTE",
+                ].map((skill, i) => (
+                  <span
+                    key={i}
+                    className="px-3 sm:px-4 py-1.5 sm:py-2 bg-[#1e1e1e] border border-[#3e3e42] rounded text-[#ce9178] text-sm sm:text-base"
+                  >
+                    "{skill}"
+                  </span>
+                ))}
+              </div>
+              <div>
+                <span className="text-[#d4d4d4] ml-6 sm:ml-12">],</span>
+              </div>
+            </div>
+
+            <div>
+              <div className="mb-3">
+                <span className="text-[#9cdcfe] text-sm sm:text-base">
+                  automationQA:
+                </span>
+                <span className="text-[#d4d4d4] ml-2">[</span>
+              </div>
+              <div className="ml-6 sm:ml-12 flex flex-wrap gap-2 sm:gap-3 mb-3">
+                {[
+                  "Python Scripting",
+                  "UFT",
+                  "VBScript",
+                  "ALM",
+                  "Azure DevOps",
+                  "Test Automation",
+                ].map((skill, i) => (
+                  <span
+                    key={i}
+                    className="px-3 sm:px-4 py-1.5 sm:py-2 bg-[#1e1e1e] border border-[#3e3e42] rounded text-[#ce9178] text-sm sm:text-base"
+                  >
+                    "{skill}"
+                  </span>
+                ))}
               </div>
               <div>
                 <span className="text-[#d4d4d4] ml-6 sm:ml-12">],</span>
@@ -189,11 +362,38 @@ export function About() {
               </div>
               <div className="ml-6 sm:ml-12 flex flex-wrap gap-2 sm:gap-3 mb-3">
                 {[
+                  "AWS (EC2, Lambda, S3)",
+                  "API Gateway",
                   "Node.js",
-                  "Express.js",
                   "GraphQL",
-                  "REST APIs",
-                  "AWS",
+                ].map((skill, i) => (
+                  <span
+                    key={i}
+                    className="px-3 sm:px-4 py-1.5 sm:py-2 bg-[#1e1e1e] border border-[#3e3e42] rounded text-[#ce9178] text-sm sm:text-base"
+                  >
+                    "{skill}"
+                  </span>
+                ))}
+              </div>
+              <div>
+                <span className="text-[#d4d4d4] ml-6 sm:ml-12">],</span>
+              </div>
+            </div>
+
+            <div>
+              <div className="mb-3">
+                <span className="text-[#9cdcfe] text-sm sm:text-base">
+                  dataAnalytics:
+                </span>
+                <span className="text-[#d4d4d4] ml-2">[</span>
+              </div>
+              <div className="ml-6 sm:ml-12 flex flex-wrap gap-2 sm:gap-3 mb-3">
+                {[
+                  "Data Cleaning",
+                  "Data Mining",
+                  "Statistical Analysis",
+                  "Pandas",
+                  "NumPy",
                 ].map((skill, i) => (
                   <span
                     key={i}
@@ -218,92 +418,7 @@ export function About() {
               <div className="ml-6 sm:ml-12 flex flex-wrap gap-2 sm:gap-3 mb-3">
                 {[
                   "MongoDB",
-                  "Oracle DB",
-                  "PostgreSQL",
-                  "MySQL",
-                ].map((skill, i) => (
-                  <span
-                    key={i}
-                    className="px-3 sm:px-4 py-1.5 sm:py-2 bg-[#1e1e1e] border border-[#3e3e42] rounded text-[#ce9178] text-sm sm:text-base"
-                  >
-                    "{skill}"
-                  </span>
-                ))}
-              </div>
-              <div>
-                <span className="text-[#d4d4d4] ml-6 sm:ml-12">],</span>
-              </div>
-            </div>
-
-            <div>
-              <div className="mb-3">
-                <span className="text-[#9cdcfe] text-sm sm:text-base">
-                  testing:
-                </span>
-                <span className="text-[#d4d4d4] ml-2">[</span>
-              </div>
-              <div className="ml-6 sm:ml-12 flex flex-wrap gap-2 sm:gap-3 mb-3">
-                {[
-                  "ALM",
-                  "JIRA",
-                  "Postman",
-                  "Azure DevOps",
-                  "Selenium",
-                  "Robot Framework",
-                ].map((skill, i) => (
-                  <span
-                    key={i}
-                    className="px-3 sm:px-4 py-1.5 sm:py-2 bg-[#1e1e1e] border border-[#3e3e42] rounded text-[#ce9178] text-sm sm:text-base"
-                  >
-                    "{skill}"
-                  </span>
-                ))}
-              </div>
-              <div>
-                <span className="text-[#d4d4d4] ml-6 sm:ml-12">],</span>
-              </div>
-            </div>
-
-            <div>
-              <div className="mb-3">
-                <span className="text-[#9cdcfe] text-sm sm:text-base">
-                  aiAutomation:
-                </span>
-                <span className="text-[#d4d4d4] ml-2">[</span>
-              </div>
-              <div className="ml-6 sm:ml-12 flex flex-wrap gap-2 sm:gap-3 mb-3">
-                {[
-                  "LLM APIs",
-                  "Python AI Agents",
-                  "Data Pipelines",
-                  "Feature Engineering",
-                ].map((skill, i) => (
-                  <span
-                    key={i}
-                    className="px-3 sm:px-4 py-1.5 sm:py-2 bg-[#1e1e1e] border border-[#3e3e42] rounded text-[#ce9178] text-sm sm:text-base"
-                  >
-                    "{skill}"
-                  </span>
-                ))}
-              </div>
-              <div>
-                <span className="text-[#d4d4d4] ml-6 sm:ml-12">],</span>
-              </div>
-            </div>
-
-            <div>
-              <div className="mb-3">
-                <span className="text-[#9cdcfe] text-sm sm:text-base">
-                  devOps:
-                </span>
-                <span className="text-[#d4d4d4] ml-2">[</span>
-              </div>
-              <div className="ml-6 sm:ml-12 flex flex-wrap gap-2 sm:gap-3 mb-3">
-                {[
-                  "Docker",
-                  "Kubernetes",
-                  "CI/CD",
-                  "GitHub Actions",
+                  "SQL",
                 ].map((skill, i) => (
                   <span
                     key={i}
@@ -320,7 +435,6 @@ export function About() {
           </div>
 
           <div className="mt-4 text-sm sm:text-base">
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">8</span>
             <span className="text-[#d4d4d4]">{"}"}</span>
           </div>
         </div>
@@ -328,7 +442,7 @@ export function About() {
         {/* Contact Section */}
         <div className="bg-[#252526] border border-[#3e3e42] rounded-lg p-5 sm:p-6 md:p-8">
           <div className="mb-4 text-sm sm:text-base">
-            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">9</span>
+            <span className="text-[#6a9955] shrink-0 font-mono text-base sm:text-lg mr-3">6</span>
             <span className="text-[#6a9955]">
               // Connect with me
             </span>
